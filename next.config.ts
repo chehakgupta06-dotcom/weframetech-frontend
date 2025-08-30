@@ -1,9 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  experimental: {
-    appDir: true, // make sure App Router is enabled
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
