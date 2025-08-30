@@ -6,7 +6,8 @@ export default function Navbar() {
       <h1 className="font-semibold">Dashboard</h1>
       <div className="flex items-center gap-4">
         {/* Later: Add user avatar, search, etc. */}
-        <span className="text-sm text-gray-500">Welcome, User</span>
+       <span className="text-sm text-gray-800 dark:text-gray-100">Welcome, User</span>
+
       </div>
     </header>
   );
